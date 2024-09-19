@@ -11,7 +11,6 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Binary")
-            Text("Hexadecimal")
         }
         .padding()
     }
