@@ -13,18 +13,25 @@ struct ContentView: View {
     var body: some View {
         let number = Int(enteredNumber) ?? 0
         VStack {
-            Text("Binary Translator")
+            Text("Translator")
+            TextField("Enter Number", text: $enteredNumber)
             Divider()
             HStack {
-                TextField("Enter Number", text: $enteredNumber)
-                Button("Translate") {
-                    finalString = "\(binaryString(from: number))"
+                HStack {
+                    Button("Binary") {
+                        finalString = "\(binaryString(from: number))"
+                    }
+                }
+                .foregroundColor(.cyan)
+                Button("Hexadecimal") {
+                    finalString = "\(hexaString(from: number))"
                 }
                 .foregroundColor(.cyan)
             }
             Text("\(finalString)")
 
         }
+        .padding()
     }
     func binaryString(from number: Int) -> String {
         guard number >= 0 else {
@@ -32,6 +39,13 @@ struct ContentView: View {
         }
         
         return String(number, radix: 2)
+    }
+    func hexaString(from number: Int) -> String {
+        guard number >= 0 else {
+            return "Invalid number"
+        }
+        
+        return String(number, radix: 16)
     }
 }
 
