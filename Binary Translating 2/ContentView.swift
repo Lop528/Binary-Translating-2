@@ -8,9 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    
-    
     @State var enteredNumber = ""
     @State var finalString = ""
     var body: some View {
