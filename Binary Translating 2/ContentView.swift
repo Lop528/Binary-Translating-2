@@ -56,17 +56,9 @@ struct ContentView: View {
         .padding()
     }
     func binaryString(from number: Int) -> String {
-        guard number >= 0 else {
-            return "Invalid number"
-        }
-        
         return String(number, radix: 2)
     }
     func hexaString(from number: Int) -> String {
-        guard number >= 0 else {
-            return "Invalid number"
-        }
-        
         return String(number, radix: 16)
     }   
 }
