@@ -68,7 +68,7 @@ struct ContentView: View {
         }
         
         return String(number, radix: 16)
-    }
+    }   
 }
 
 
