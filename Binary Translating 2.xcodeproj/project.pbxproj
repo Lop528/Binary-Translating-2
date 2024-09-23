@@ -11,7 +11,6 @@
 		C66A17EC2C99C5CD00398D93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66A17EB2C99C5CD00398D93 /* ContentView.swift */; };
 		C66A17EE2C99C5CE00398D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66A17ED2C99C5CE00398D93 /* Assets.xcassets */; };
 		C66A17F12C99C5CE00398D93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66A17F02C99C5CE00398D93 /* Preview Assets.xcassets */; };
-		C67F699B2C9C64CD0087D57B /* binary.png in Resources */ = {isa = PBXBuildFile; fileRef = C67F699A2C9C64CD0087D57B /* binary.png */; };
 		C6D8EE9C2C9C5DDA00A47BF4 /* HexaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8EE9B2C9C5DDA00A47BF4 /* HexaView.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		C66A17EB2C99C5CD00398D93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C66A17ED2C99C5CE00398D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C66A17F02C99C5CE00398D93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C67F699A2C9C64CD0087D57B /* binary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = binary.png; path = ../../../binary.png; sourceTree = "<group>"; };
 		C6D8EE9B2C9C5DDA00A47BF4 /* HexaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +65,6 @@
 		C66A17EF2C99C5CE00398D93 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C67F699A2C9C64CD0087D57B /* binary.png */,
 				C66A17F02C99C5CE00398D93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -132,7 +129,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C66A17F12C99C5CE00398D93 /* Preview Assets.xcassets in Resources */,
-				C67F699B2C9C64CD0087D57B /* binary.png in Resources */,
 				C66A17EE2C99C5CE00398D93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
